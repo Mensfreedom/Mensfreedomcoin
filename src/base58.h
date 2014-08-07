@@ -277,10 +277,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 56, // Mensfreedomcoin addresses start with M
-        SCRIPT_ADDRESS = 36,        // script hash start with F
-        PUBKEY_ADDRESS_TEST = 95, // testnet addresses start with m
-        SCRIPT_ADDRESS_TEST = 196, // Testnet script hash start with f
+        PUBKEY_ADDRESS = 51, // Mensfreedomcoin addresses start with M (https://en.bitcoin.it/wiki/List_of_address_prefixes)
+        SCRIPT_ADDRESS = 35,        // script hash start with F
+        PUBKEY_ADDRESS_TEST = 110, // testnet addresses start with m
+        SCRIPT_ADDRESS_TEST = 95, // Testnet script hash start with f
     };
 
     bool Set(const CKeyID &id) {
