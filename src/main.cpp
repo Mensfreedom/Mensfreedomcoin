@@ -34,7 +34,7 @@ unsigned int nTransactionsUpdated = 0;
 int nBaseMaturity = BASE_MATURITY;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x3909399684fb2f8a5c23df4f75db8e2828d99ab6328f233010cfd07f7c8a4269");
+uint256 hashGenesisBlock("0xf8ac0e6d564000cd3fec23a8ada0b00ba4c1471766bcdbceb200051a77b5aeb0");
 // The lowest possible difficulty which is also the starting difficulty (1 / 2^12)
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20);
 /* The difficulty after switching to NeoScrypt (0.015625) */
@@ -2167,7 +2167,7 @@ bool LoadBlockIndex(bool fAllowNew) {
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
 
-        if(!fTestNet) assert(block.hashMerkleRoot == uint256("0xff2aa75842fae1bfb100b656c57229ce37b03643434da2043ddab7a11cfe69a6"));
+        if(!fTestNet) assert(block.hashMerkleRoot == uint256("0x830d75171aa3704b9b09f3c95631f4d580cced24dec6aaa22a7508cf2b4fc123"));
         else assert(block.hashMerkleRoot == uint256("0x9bf4ade403d775b44e872935609367aee5bd7df698e0f4c73e5f30f46b30a537"));
 
         // If genesis block hash does not match, then generate new genesis hash.

@@ -555,7 +555,7 @@ Value setaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "setaccount <phoenixcoinaddress> <account>\n"
+            "setaccount <mensfreedomcoinaddress> <account>\n"
             "Sets the account associated with the given address.");
 
     CBitcoinAddress address(params[0].get_str());
@@ -585,7 +585,7 @@ Value getaccount(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "getaccount <phoenixcoinaddress>\n"
+            "getaccount <mensfreedomcoinaddress>\n"
             "Returns the account associated with the given address.");
 
     CBitcoinAddress address(params[0].get_str());
@@ -657,7 +657,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 2 || params.size() > 4)
         throw runtime_error(
-            "sendtoaddress <phoenixcoinaddress> <amount> [comment] [comment-to]\n"
+            "sendtoaddress <mensfreedomcoinaddress> <amount> [comment] [comment-to]\n"
             "<amount> is a real and is rounded to the nearest 0.00000001"
             + HelpRequiringPassphrase());
 
@@ -689,7 +689,7 @@ Value signmessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 2)
         throw runtime_error(
-            "signmessage <phoenixcoinaddress> <message>\n"
+            "signmessage <mensfreedomcoinaddress> <message>\n"
             "Sign a message with the private key of an address");
 
     EnsureWalletIsUnlocked();
@@ -724,7 +724,7 @@ Value verifymessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage <phoenixcoinaddress> <signature> <message>\n"
+            "verifymessage <mensfreedomcoinaddress> <signature> <message>\n"
             "Verify a signed message");
 
     string strAddress  = params[0].get_str();
@@ -761,8 +761,8 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "getreceivedbyaddress <phoenixcoinaddress> [minconf=1]\n"
-            "Returns the total amount received by <phoenixcoinaddress> in transactions with at least [minconf] confirmations.");
+            "getreceivedbyaddress <mensfreedomcoinaddress> [minconf=1]\n"
+            "Returns the total amount received by <mensfreedomcoinaddress> in transactions with at least [minconf] confirmations.");
 
     // Mensfreedomcoin address
     CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
@@ -983,7 +983,7 @@ Value sendfrom(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 3 || params.size() > 6)
         throw runtime_error(
-            "sendfrom <fromaccount> <tophoenixcoinaddress> <amount> [minconf=1] [comment] [comment-to]\n"
+            "sendfrom <fromaccount> <tomensfreedomcoinaddress> <amount> [minconf=1] [comment] [comment-to]\n"
             "<amount> is a real and is rounded to the nearest 0.00000001"
             + HelpRequiringPassphrase());
 
@@ -1873,8 +1873,8 @@ Value validateaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "validateaddress <phoenixcoinaddress>\n"
-            "Return information about <phoenixcoinaddress>.");
+            "validateaddress <mensfreedomcoinaddress>\n"
+            "Return information about <mensfreedomcoinaddress>.");
 
     CBitcoinAddress address(params[0].get_str());
     bool isValid = address.IsValid();
@@ -2597,7 +2597,7 @@ string HTTPPost(const string& strMsg, const map<string,string>& mapRequestHeader
 {
     ostringstream s;
     s << "POST / HTTP/1.1\r\n"
-      << "User-Agent: phoenixcoin-json-rpc/" << FormatFullVersion() << "\r\n"
+      << "User-Agent: mensfreedomcoin-json-rpc/" << FormatFullVersion() << "\r\n"
       << "Host: 127.0.0.1\r\n"
       << "Content-Type: application/json\r\n"
       << "Content-Length: " << strMsg.size() << "\r\n"
@@ -2628,7 +2628,7 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
     if (nStatus == 401)
         return strprintf("HTTP/1.0 401 Authorization Required\r\n"
             "Date: %s\r\n"
-            "Server: phoenixcoin-json-rpc/%s\r\n"
+            "Server: mensfreedomcoin-json-rpc/%s\r\n"
             "WWW-Authenticate: Basic realm=\"jsonrpc\"\r\n"
             "Content-Type: text/html\r\n"
             "Content-Length: 296\r\n"
@@ -2655,7 +2655,7 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
             "Connection: %s\r\n"
             "Content-Length: %d\r\n"
             "Content-Type: application/json\r\n"
-            "Server: phoenixcoin-json-rpc/%s\r\n"
+            "Server: mensfreedomcoin-json-rpc/%s\r\n"
             "\r\n"
             "%s",
         nStatus,
@@ -3049,7 +3049,7 @@ void ThreadRPCServer2(void* parg)
         uiInterface.ThreadSafeMessageBox(strprintf(
             _("%s, you must set up the configuration file:\n %s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=phoenixcoinrpc\n"
+              "rpcuser=mensfreedomcoinrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"),

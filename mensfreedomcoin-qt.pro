@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = phoenixcoin-qt
+TARGET = mensfreedomcoin-qt
 VERSION = 0.6.6.0
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE USE_IPV6

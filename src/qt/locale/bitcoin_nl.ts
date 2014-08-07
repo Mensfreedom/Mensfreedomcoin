@@ -2504,7 +2504,7 @@ SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
         <source>%s, you must set up the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=phoenixcoinrpc
+rpcuser=mensfreedomcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2512,7 +2512,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, je moet de configuratie bestand te instellen:
  %s
 Het is aangeraden het volgende willekeurig wachtwoord te gebruiken:
-rpccuser=phoenixcoinrpc
+rpccuser=mensfreedomcoinrpc
 rpcpassword=%s
 (het is niet nodig om het wachtwoord te onthouden)
 Als het bestand niet bestaat, maak het aan, met een alleen-lezen permissie.

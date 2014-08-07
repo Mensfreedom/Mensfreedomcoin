@@ -2484,7 +2484,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, Sie müssen die Konfigurationsdatei zu erstellen:
  %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=phoenixcoinrpc
+rpcuser=mensfreedomcoinrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.

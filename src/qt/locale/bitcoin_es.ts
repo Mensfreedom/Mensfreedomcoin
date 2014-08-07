@@ -2499,7 +2499,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <source>%s, you must set up the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=phoenixcoinrpc
+rpcuser=mensfreedomcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2507,7 +2507,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, tiene que establecer el archivo de configuración: ⏎
  %s ⏎
 Se recomienda utilizar la siguiente contraseña aleatoria: ⏎
-rpcuser = phoenixcoinrpc ⏎
+rpcuser = mensfreedomcoinrpc ⏎
 rpcpassword =%s ⏎
 (no es necesario para recordar esta contraseña) ⏎
 Si el archivo no existe se crea con los permisos de lectura y escritura solamente del propietario. ⏎</translation>

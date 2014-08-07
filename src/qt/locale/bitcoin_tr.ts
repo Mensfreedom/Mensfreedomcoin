@@ -2478,7 +2478,7 @@ SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</transl
         <source>%s, you must set up the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=phoenixcoinrpc
+rpcuser=mensfreedomcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2486,7 +2486,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, şu yapılandırma dosyası kurmak gerekir:
  %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=phoenixcoinrpc
+rpcuser=mensfreedomcoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
