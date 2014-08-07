@@ -2014,8 +2014,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Вкажіть pid-файл (стандартно: phoenixcoind.pid)
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Вкажіть pid-файл (стандартно: mensfreedomcoind.pid)
 </translation>
     </message>
     <message>

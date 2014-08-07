@@ -2008,8 +2008,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: phoenixcoind.pid)</translation>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: mensfreedomcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>

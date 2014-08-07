@@ -2008,8 +2008,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut : phoenixcoind.pid)</translation>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut : mensfreedomcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>

@@ -2001,8 +2001,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: phoenixcoind.pid)</translation>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Určiť súbor pid (predvolené: mensfreedomcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>

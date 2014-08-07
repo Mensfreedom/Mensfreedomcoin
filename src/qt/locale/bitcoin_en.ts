@@ -1677,7 +1677,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

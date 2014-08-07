@@ -139,13 +139,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to phoenixcoind / RPC client
+            // First part of help message is specific to mensfreedomcoind / RPC client
             std::string strUsage = _("Mensfreedomcoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  phoenixcoind [options]                     " + "\n" +
-                  "  phoenixcoind [options] <command> [params]  " + _("Send command to -server or phoenixcoind") + "\n" +
-                  "  phoenixcoind [options] help                " + _("List commands") + "\n" +
-                  "  phoenixcoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  mensfreedomcoind [options]                     " + "\n" +
+                  "  mensfreedomcoind [options] <command> [params]  " + _("Send command to -server or mensfreedomcoind") + "\n" +
+                  "  mensfreedomcoind [options] help                " + _("List commands") + "\n" +
+                  "  mensfreedomcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -181,7 +181,7 @@ int main(int argc, char* argv[])
 {
     bool fRet = false;
 
-    // Connect phoenixcoind signal handlers
+    // Connect mensfreedomcoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);
@@ -223,7 +223,7 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
         "  -conf=<file>           " + _("Specify configuration file (default: mensfreedomcoin.conf)") + "\n" +
-        "  -pid=<file>            " + _("Specify pid file (default: phoenixcoind.pid)") + "\n" +
+        "  -pid=<file>            " + _("Specify pid file (default: mensfreedomcoind.pid)") + "\n" +
         "  -gen                   " + _("Generate coins") + "\n" +
         "  -gen=0                 " + _("Don't generate coins") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +

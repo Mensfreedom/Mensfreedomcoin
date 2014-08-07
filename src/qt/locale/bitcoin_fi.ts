@@ -2008,8 +2008,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: phoenixcoind.pid)</translation>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: mensfreedomcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>

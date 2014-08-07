@@ -2009,8 +2009,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: phoenixcoind.pid)
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: mensfreedomcoind.pid)
 </translation>
     </message>
     <message>

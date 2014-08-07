@@ -2015,8 +2015,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: phoenixcoind.pid)
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: mensfreedomcoind.pid)
 </translation>
     </message>
     <message>

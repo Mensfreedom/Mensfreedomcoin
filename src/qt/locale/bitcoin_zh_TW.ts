@@ -2013,8 +2013,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>指定行程識別碼檔案 (預設: phoenixcoind.pid)
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>指定行程識別碼檔案 (預設: mensfreedomcoind.pid)
 </translation>
     </message>
     <message>

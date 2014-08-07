@@ -2011,8 +2011,8 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: phoenixcoind.pid)
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: mensfreedomcoind.pid)
 </translation>
     </message>
     <message>

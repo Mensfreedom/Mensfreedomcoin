@@ -1022,7 +1022,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific) {
     if(GetBoolArg("-testnet", false))
       path /= "testnet";
 
-    fs::create_directories(path);
+    fs::create_directory(path);
 
     cachedPath[fNetSpecific] = true;
 
@@ -1066,7 +1066,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet, map<string, vector<stri
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "phoenixcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "mensfreedomcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

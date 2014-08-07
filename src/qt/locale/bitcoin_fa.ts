@@ -2009,8 +2009,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: phoenixcoind.pid)</source>
-        <translation>(phoenixcoind.pid پیش فرض : ) فایل پید خاص</translation>
+        <source>Specify pid file (default: mensfreedomcoind.pid)</source>
+        <translation>(mensfreedomcoind.pid پیش فرض : ) فایل پید خاص</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
