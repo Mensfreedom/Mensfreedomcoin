@@ -34,7 +34,7 @@ unsigned int nTransactionsUpdated = 0;
 int nBaseMaturity = BASE_MATURITY;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xf8ac0e6d564000cd3fec23a8ada0b00ba4c1471766bcdbceb200051a77b5aeb0");
+uint256 hashGenesisBlock("0x251a4489d5b3ddc115ed62c994965fa7c5c69a84394e78981cb6858b3f2dc88c");
 // The lowest possible difficulty which is also the starting difficulty (1 / 2^12)
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20);
 /* The difficulty after switching to NeoScrypt (0.015625) */
@@ -2135,7 +2135,7 @@ bool LoadBlockIndex(bool fAllowNew) {
             block.nVersion = 1;
             block.nTime    = 1407369600;
             block.nBits    = 0x1e0ffff0;
-            block.nNonce   = 2084931085;
+            block.nNonce   = 2085030769;
 
         } else {
 
